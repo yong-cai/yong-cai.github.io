@@ -26,11 +26,6 @@ email: yourname@email.com
 #disqus: username
 #google_analytics: UA-69391421-1
 
-# co-authors
-ivancanay: https://sites.northwestern.edu/iac879/
-deborahkim: https://sites.google.com/view/deborahkim/
-azeemshaikh: https://home.uchicago.edu/~amshaikh/
-
 # needed for travis-ci build
 exclude: [vendor]
 
