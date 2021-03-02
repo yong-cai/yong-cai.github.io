@@ -115,7 +115,7 @@ body {
   text-align: left;
   line-height: 20px;
   font-size: 18px;
-  margin-bottom: 0;	
+  margin-bottom: -10px;	
 }
 .panel-default h6 {
   font-size: 15px;
@@ -132,7 +132,7 @@ body {
 .panel-body {
   padding-top: -10px;
   text-align: left;
-  font-size: 14px;	
+  font-size: 16px;	
 }
 .social {
   padding-top: 12px;
