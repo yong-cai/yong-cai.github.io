@@ -23,6 +23,11 @@ summary {
   display: list-item
 }
 
+details > p {
+  padding-left: 1em;
+}
+
+
 /* Navbar
 -------------------------------------------------- */
 
