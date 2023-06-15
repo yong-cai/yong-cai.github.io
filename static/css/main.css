@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Gill Sans', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #30249E;
 }
