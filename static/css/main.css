@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #30249E;
 }
@@ -122,12 +122,12 @@ p {
 .panel-default h4 {
   text-align: left;
   line-height: 24px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .panel-default h5 {
   text-align: left;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0px;	
 }
 .panel-default h6 {
