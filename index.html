@@ -30,6 +30,22 @@ layout: layout
 <h4 style="font-weight: 600;">Working Papers</h4>
   <div class="panel panel-default">
     <div class="panel-body">
+
+		<h5>
+			<a href="https://yong-cai.github.io/assets/images/eigenReg.pdf"> 
+			Regression Discontinuity Design with Spillovers </a>
+		</h5>
+	    	With <a href="https://sites.google.com/site/ericjauerbach/">Eric Auerbach</a> and <a href="http://ahnafalrafi.com">Ahnaf Rafi</a>. <br>
+	    <details>
+		  <summary>Abstract</summary>
+		  <p>
+			Researchers who estimate treatment effects using a regression discontinuity design (RDD) typically assume that there are no spillovers between the treated and control units. This may be unrealistic. We characterize the estimand of RDD in a setting where spillovers occur between units that are close in their values of the running variable. Under the assumption that spillovers are linear-in-means, we show that the estimand depends on the ratio of two terms: (1) the radius over which spillovers occur and (2) the choice of bandwidth used for the local linear regression. Specifically, RDD estimates direct treatment effect when radius is of larger order than the bandwidth, and total treatment effect when radius is of smaller order than the bandwidth. In the more realistic regime where radius is of similar order as the bandwidth, the RDD estimand is a mix of the above effects. To recover direct and spillover effects, we propose incorporating estimated spillover terms into local linear regression -- the local analog of peer effects regression. We also clarify the settings under which the donut-hole RD is able to eliminate the effects of spillovers.
+			  </p>
+		</details>
+		<br>
+
+
+
 		<h5>
 			<a href="https://yong-cai.github.io/assets/images/eigenReg.pdf"> 
 			Linear Regression with Centrality Measures </a>
@@ -43,8 +59,6 @@ layout: layout
 		</details>
 		<br>
 	    
-
-	    
 	    
 	  <h5>
 			<a href="https://arxiv.org/pdf/2206.04643.pdf"> On the Performance of the Neyman Allocation with Small Pilots </a> (R&R JoE)
@@ -54,8 +68,7 @@ layout: layout
 	    	<details>
 		  <summary>Abstract</summary>
 		  <p>
-			The Neyman Allocation and its conditional counterpart are used in many papers on experiment design, which typically assume that researchers have access to large pilot studies. This may not be realistic. To understand the properties of the Neyman Allocation with small pilots, we study its behavior in a novel asymptotic framework for two-wave experiments in which the pilot size is assumed to be fixed while the main wave sample size grows. Our analysis shows that the Neyman Allocation can lead to estimates of the ATE with higher asymptotic variance than with (non-adaptive) balanced randomization, particularly when the population is relatively homoskedastic. We also provide a series of empirical examples showing that the Neyman Allocation may perform poorly for values of homoskedasticity that are relevant for researchers. Our results suggest caution when employing experiment design methods involving the Neyman Allocation estimated from a small pilot study.
-		  </p>
+			The Neyman Allocation is used in many papers on experimental design, which typically assume that researchers have access to large pilot studies. This may be unrealistic. To understand the properties of the Neyman Allocation with small pilots, we study its behavior in an asymptotic framework that takes pilot size to be fixed even as the size of the main wave tends to infinity. Our analysis shows that the Neyman Allocation can lead to estimates of the ATE with higher asymptotic variance than with (non-adaptive) balanced randomization. In particular, this happens when the outcome variable is relatively homoskedastic with respect to treatment status or when it exhibits high kurtosis. We provide a series of empirical examples showing that such situations can arise in practice. Our results suggest that researchers with small pilots should not use the Neyman Allocation if they believe that outcomes are homoskedastic or heavy-tailed. Finally, we examine some potential methods for improving the finite sample performance of the FNA via simulations.		</p>
 		</details>
 		<br>
 	    
@@ -106,8 +119,8 @@ layout: layout
 	    	<details>
 		  <summary>Abstract</summary>
 		  <p>
-		    This paper contains two finite-sample results about the sign test. First, we show that the sign test is unbiased against two-sided alternatives even when observations are not identically distributed. Second, we provide simple theoretical counterexamples to show that correlation that is unaccounted for leads to size distortion and over-rejection. Our results have implication for practitioners, who are increasingly employing randomization tests for inference. 
-		  </p>
+			This paper contains two finite-sample results concerning the sign test. First, we show that the sign-test is unbiased with independent, non-identically distributed data for both one-sided and two-sided hypotheses. The proof for the two-sided case is based on a novel argument that relates the derivatives of the power function to a regular bipartite graph. Unbiasedness then follows from the existence of perfect matchings on such graphs. Second, we provide a simple theoretical counterexample to show that the sign test over-rejects when the data exhibits correlation. Our results are useful for understanding the properties of approximate randomization tests in settings with few clusters.		  
+			</p>
 		</details>
 	    	<br>
     </div>
